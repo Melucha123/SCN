@@ -1,9 +1,9 @@
 simplyCountdown('#cuenta', {
-	year: 2025, // required
-	month: 2, // required
-	day: 19, // required
-	hours: 7, // Default is 0 [0-23] integer
-	minutes: 31, // Default is 0 [0-59] integer
+	year: 2022, // required
+	month: 4, // required
+	day: 1, // required
+	hours: 0, // Default is 0 [0-23] integer
+	minutes: 0, // Default is 0 [0-59] integer
 	seconds: 0, // Default is 0 [0-59] integer
 	words: { //words displayed into the countdown
 		days: 'Día',
