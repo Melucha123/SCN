@@ -9,6 +9,8 @@ html{
 body{
     font-family: 'Lato', sans-serif;
     margin: 0;
+    background: #ffff;
+    color: #332f7e;
 }
 
 h3{ font-size: 2em;}
@@ -32,7 +34,7 @@ h2 { font-family: Lato; font-size: 50px; font-style: normal; font-variant: norma
 .flexslider{
     width: 100%;
     position: relative;
-    background: #1e1e1e;
+    background: #ffff;
 }
 
 .slides{
@@ -262,17 +264,17 @@ button:hover{
 
 #cronograma{
      text-align: center;
-     margin-top: 20px;
+     margin-top: 40px;
 }
 
 #nuestros-programas{
-    background-color: rgb(30,30,30);
-    color: white;
+    background-color: #ffff;
+    color: #332f7e;
     text-align: center;
 }
 
 #nuestros-programas .container{
-    padding: 150px 12px;
+    padding: 50px 12px;
 }
 
 #nuestros-programas h2{
@@ -586,7 +588,7 @@ footer .container{
     transition: all 300ms ease;
 }
 .pie-pagina .grupo-1 .red-social a:hover{
-    color: aqua;
+    color: #a5dc86f2;
 }
 .pie-pagina .grupo-2{
     background-color: #0a1a2a;
@@ -691,7 +693,7 @@ footer .container{
     margin-bottom: 20px;
 }
  .barra-busqueda {
-    width: 70%;
+    width: 45%;
     height: 40px;
     line-height: 40px;
     background: #fff;
@@ -719,7 +721,7 @@ button#btn-cerrar-popup {
     flex-wrap: wrap;
 }
  .categorias a {
-    color: #610B4B;
+    color: #68b540;
     margin: 10px 20px;
     font-size: 18px;
     font-weight: 700;
@@ -739,7 +741,7 @@ button#btn-cerrar-popup {
   list-style: none;
   padding-left: 0;
   margin-top: 0;
-  border: 1px solid #81CDC6;
+  border: 1px solid #68b540;
   margin-bottom: 2em; }
   .pricing-table__title {
     background: #68b540;
@@ -751,15 +753,17 @@ button#btn-cerrar-popup {
       display: inline-block;
       padding-left: .2em; }
   .pricing-table__price {
+    color: black;
     font-size: 4em;
     text-align: center; }
     .pricing-table__price:before {
       content: "$";
       font-size: .5em; }
   .pricing-table__feature {
+    color: black;
     text-align: center;
     padding: .5em 1em;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #68b540;
     width: 90%;
     margin: 0 auto; }
   .pricing-table__cta {
@@ -769,7 +773,7 @@ button#btn-cerrar-popup {
     margin: 1em auto;
     display: table; }
     .pricing-table__cta:hover {
-      background: #47958f;
+      background: #362f7fa3;
       text-decoration: none; }
     .pricing-table__cta:active {
       -webkit-transform: scale(0.97);
@@ -782,6 +786,7 @@ button#btn-cerrar-popup {
   .ed-item.l-1-3 {
     width: 33.33333%; }
     .ed-container {
+
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -844,7 +849,7 @@ button#btn-cerrar-popup {
         top: 0;
         width: 100%;
         height: 100%;
-        background: rgba(0,103,123,0.7);
+        background: #a5dc8699;
         transition: all 400ms ease-out;
         opacity: 0;
         visibility: hidden;
