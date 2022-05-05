@@ -434,8 +434,13 @@ button:hover{
 }
 
 footer{
-    background-color: rgb(230,230,230);
-}
+    
+    height: 400px;
+    background-image: url(media/footer.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat; }
 
 footer p{
     margin: 0;
